@@ -18,7 +18,7 @@ body {
 #logo {
   color: #3d67e2;
   font-family: "Lobster", cursive;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 #navlinks {
@@ -127,18 +127,10 @@ div.workHeading {
   margin-top: 10px;
 }
 
-.work1 h2:hover {
-  color: #f0f0f0;
-}
-
 .work1 p {
   padding: 10px;
   color: #2c2d2d;
   font-size: 1rem;
-}
-
-.work1 p:hover {
-  color: #f0f0f0;
 }
 
 section.contact {
