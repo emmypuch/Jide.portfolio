@@ -99,7 +99,7 @@ div.workHeading {
 }
 
 .work1 {
-  background-color: #2c2d2d;
+  background-color: #f0f0f0;
   height: 200px;
   border-radius: 2px;
   transition: all 0.5s;
@@ -108,10 +108,11 @@ div.workHeading {
 
 .work1:hover {
   transform: scale(1.05);
+  background-color: #6b6969;
 }
 
 .work1 h2 {
-  color: #d6d3d3;
+  color: #282929;
   font-size: 1.4rem;
   text-align: center;
   margin-top: 10px;
@@ -119,6 +120,46 @@ div.workHeading {
 
 .work1 p {
   padding: 10px;
-  color: #909090;
+  color: #2c2d2d;
   font-size: 1rem;
+}
+
+section.contact {
+  background-color: #2c2d2d;
+}
+
+div.footerContact {
+  color: #d6d3d3;
+  font-size: 1.5rem;
+}
+
+.social {
+  color: #909090;
+}
+
+.social:hover {
+  color: #315bda;
+}
+
+.socials {
+  font-size: 1rem;
+  color: #909090;
+}
+
+.socials:hover {
+  color: #315bda;
+}
+
+section.footerContainer {
+  background-color: #f0f0f0;
+}
+
+div.footer {
+  display: flex;
+  justify-content: center;
+}
+
+div.footer p {
+  color: #282929;
+  font-size: 1.2rem;
 }
