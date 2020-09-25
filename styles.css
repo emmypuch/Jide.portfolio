@@ -163,3 +163,18 @@ div.footer p {
   color: #282929;
   font-size: 1.2rem;
 }
+
+.button button {
+  background-color: #315bda;
+  color: #ececee;
+  transition: all 0.5s;
+  border: 2px solid transparent;
+  outline: transparent;
+}
+
+.button button:hover {
+  background-color: transparent;
+  color: #3d67e2;
+  border: 2px solid #3d67e2;
+  outline: transparent;
+}
