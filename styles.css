@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:wght@400;500&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,6 +17,8 @@ body {
 
 #logo {
   color: #3d67e2;
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
 }
 
 #navlinks {
@@ -67,7 +75,7 @@ div.biographyPar p {
 
 #button button {
   background-color: #315bda;
-  color: #ececee;
+  color: #f0f0f0;
   transition: all 0.5s;
   border: 2px solid transparent;
   outline: transparent;
@@ -75,8 +83,8 @@ div.biographyPar p {
 
 #button button:hover {
   background-color: transparent;
-  color: #3d67e2;
-  border: 2px solid #3d67e2;
+  color: #f0f0f0;
+  border: 2px solid #f0f0f0;
   outline: transparent;
 }
 
@@ -109,6 +117,7 @@ div.workHeading {
 .work1:hover {
   transform: scale(1.05);
   background-color: #6b6969;
+  color: #f0f0f0;
 }
 
 .work1 h2 {
@@ -118,10 +127,18 @@ div.workHeading {
   margin-top: 10px;
 }
 
+.work1 h2:hover {
+  color: #f0f0f0;
+}
+
 .work1 p {
   padding: 10px;
   color: #2c2d2d;
   font-size: 1rem;
+}
+
+.work1 p:hover {
+  color: #f0f0f0;
 }
 
 section.contact {
@@ -166,7 +183,7 @@ div.footer p {
 
 .button button {
   background-color: #315bda;
-  color: #ececee;
+  color: #f0f0f0;
   transition: all 0.5s;
   border: 2px solid transparent;
   outline: transparent;
@@ -174,7 +191,7 @@ div.footer p {
 
 .button button:hover {
   background-color: transparent;
-  color: #3d67e2;
-  border: 2px solid #3d67e2;
+  color: #f0f0f0;
+  border: 2px solid #f0f0f0;
   outline: transparent;
 }

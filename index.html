@@ -19,30 +19,30 @@
     <div class="w-screen h-screen">
       <section class="hero px-48 py-4">
         <a href="#" class="inline-block mr-8">
-          <h1 id="logo" class="text-2xl font-bold">Jide</h1>
+          <h1 id="logo" class="uppercase font-bold">Jide</h1>
         </a>
         <div class="float-right">
           <a
-            href="#"
+            href="#home"
             style="color: #3d67e2"
             class="block sm:inline-block mr-6 font-bold text-base"
             >Home</a
           >
           <a
             id="navlinks"
-            href="#"
+            href="#about"
             class="block sm:inline-block mr-6 font-bold text-base"
             >About</a
           >
           <a
             id="navlinks"
-            href="#"
+            href="#articles"
             class="block sm:inline-block mr-6 font-bold text-base"
             >Articles</a
           >
           <a
             id="navlinks"
-            href="#"
+            href="#contact"
             class="block sm:inline-block mr-6 font-bold text-base"
             >Contact</a
           >
@@ -50,17 +50,13 @@
       </section>
 
       <section class="introduction px-48 py-4">
-        <div class="flex justify-center items-center mt-12">
+        <div id="home" class="flex justify-center items-center mt-12">
           <div class="nameContainer">
             <h2>Hello! I'm Jide</h2>
           </div>
         </div>
-        <div class="flex justify-center items-center mt-8">
-          <div class="descriptionPar">
-            <h3>Welcome to my website!</h3>
-          </div>
-        </div>
-        <div class="flex justify-center items-center mt-2">
+
+        <div class="flex justify-center items-center mt-6">
           <div class="descriptionPar2">
             <p class="mb-8">
               I am a content writer/editor based in Lagos, Nigeria.
@@ -73,7 +69,7 @@
         class="biography flex px-48 py-4 pb-10"
         style="align-items: center; min-height: 60vh"
       >
-        <div id="home" class="grid grid-cols-2 mt-4">
+        <div id="about" class="grid grid-cols-2 mt-4">
           <div class="content">
             <div class="rectangle"></div>
             <div class="biographyContent">
@@ -127,7 +123,7 @@
       </section>
 
       <section class="works px-48 py-4 pb-12">
-        <div class="rectangle"></div>
+        <div id="articles" class="rectangle"></div>
         <div class="workHeading">
           <h4>Articles</h4>
         </div>
@@ -162,37 +158,35 @@
       </section>
 
       <section class="contact px-48 py-4 pb-10">
-        <div class="rectangle"></div>
+        <div id="contact" class="rectangle"></div>
         <div class="footerContact">
           <h4>Contact Me</h4>
         </div>
 
-        <div class="contactCard mt-6 grid grid-cols-2 gap-2">
-          <div>
-            <div class="mt-4">
-              <h4 style="font-size: 1rem; color: #d6d3d3">Email</h4>
-              <a
-                class="socials"
-                href="mailto:adesuyiomowunmi@gmail.com"
-                target="_blank"
-              >
-                olaoyeolajide@gmail.com
-              </a>
-            </div>
+        <div class="contactCard mt-6 flex justify-around">
+          <div class="mt-4">
+            <h4 style="font-size: 1rem; color: #d6d3d3">Email</h4>
+            <a
+              class="socials"
+              href="mailto:adesuyiomowunmi@gmail.com"
+              target="_blank"
+            >
+              olaoyeolajide@gmail.com
+            </a>
+          </div>
 
-            <div class="mt-4">
-              <h4 style="font-size: 1rem; color: #d6d3d3">Phone</h4>
-              <a class="socials" href="tel:+234 8147005526">
-                +(234) 906 074 0231
-              </a>
-            </div>
+          <div class="mt-4">
+            <h4 style="font-size: 1rem; color: #d6d3d3">Phone</h4>
+            <a class="socials" href="tel:+234 8147005526">
+              +(234) 906 074 0231
+            </a>
           </div>
 
           <div class="socialLinks">
-            <h3 class="mt-6" style="color: #d6d3d3; font-size: 1.2rem">
+            <h3 class="mt-6" style="color: #d6d3d3; font-size: 1rem">
               Social Media
             </h3>
-            <div class="mt-4">
+            <div>
               <a
                 class="social mr-4"
                 href="https://twitter.com/olaoyeolajide9"
@@ -213,5 +207,8 @@
         </div>
       </section>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
